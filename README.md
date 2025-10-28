@@ -43,19 +43,19 @@ A full-stack Expense Tracker web application built with the MERN stack (MongoDB,
 expense-tracker/
 ├── backend/
 │   ├── config/
-│   │   └── database.js
+│   │   └── db.js
 │   ├── controllers/
-│   │   ├── expenseController.js
-│   │   └── userController.js
+│   │   ├── expense.js
+│   │   └── user.js
 │   ├── middleware/
 │   │   └── authMiddleware.js
 │   ├── models/
-│   │   ├── Expense.js
-│   │   └── User.js
+│   │   ├── expense.model.js
+│   │   └── user.model.js
 │   ├── routes/
-│   │   ├── expenseRoutes.js
+│   │   ├── expense.routes.js
 │   │   ├── index.js
-│   │   └── userRoutes.js
+│   │   └── user.routes.js
 │   ├── .env
 │   ├── package.json
 │   └── server.js
